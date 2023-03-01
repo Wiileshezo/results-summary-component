@@ -1,8 +1,23 @@
+@media screen and (max-width: 1440px) {
+  .my-container {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .my-container {
+    width: 640px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .my-container {
+    width: 94%;
+    height: 105%;
+  }
+}
 body {
   height: 100%;
 }
 .my-container {
-  width: 768px;
   display: flex;
   position: absolute;
   left: 50%;
@@ -11,7 +26,7 @@ body {
 }
 .row {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 15px;
+  border-radius: 20px;
 }
 .section1 {
   background-color: #6441fd;
@@ -62,6 +77,7 @@ body {
   background-color: #fff;
   color: #000;
   padding: 7vw;
+  border-radius: 20px;
 }
 .samm {
   list-style-type: none;
